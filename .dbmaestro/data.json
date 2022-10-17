@@ -93,6 +93,31 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "27f836e0-8e98-4cec-addb-2844fa367efe",
+        "ProjectName": "SC_Prj2V1",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\sgomes\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "SAG-Arbit",
+          "DatabasesData": []
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
