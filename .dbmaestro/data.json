@@ -264,6 +264,21 @@
               "RepositoryCredentials": null
             }
           ]
+        },
+        {
+          "UserName": "sagomes47",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a6376faf-c370-4b61-9306-6d8d568877d3",
+              "DatabaseAliasName": "SC_Prj4",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "sagomes47",
+                "Password": "nRkmXMANplkEX6lJNIFGVOqg2ViBTBM51CHRvwK1oC4DGkZ+15GkRlvHzoYCzS7c"
+              }
+            }
+          ]
         }
       ]
     }
