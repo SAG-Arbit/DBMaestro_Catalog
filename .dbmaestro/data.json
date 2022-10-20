@@ -193,7 +193,26 @@
         "ProjectId": "b89568dc-c287-4acc-93b9-93ec9ecf5186",
         "ProjectName": "SC_Prj4",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "e4af911c-d98c-4177-9728-659403741993",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "a6376faf-c370-4b61-9306-6d8d568877d3",
+                "DatabaseAliasName": "SC_Prj4",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/SAG-Arbit/SC_Prj4.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -209,7 +228,42 @@
       "UserData": [
         {
           "UserName": "SAG-Arbit",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "a6376faf-c370-4b61-9306-6d8d568877d3",
+              "DatabaseAliasName": "SC_Prj4",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "SAG-Arbit",
+                "Password": "nRkmXMANplkEX6lJNIFGVOqg2ViBTBM51CHRvwK1oC4DGkZ+15GkRlvHzoYCzS7c"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "a6376faf-c370-4b61-9306-6d8d568877d3",
+              "DatabaseAliasName": "SC_Prj4",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "SRVDBMAESTRO\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "dbmaestro",
+                    "dbName": "SC_Prj4_Dev",
+                    "Password": "d517xklpdsnh1ndM7kY9qg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ]
     }
