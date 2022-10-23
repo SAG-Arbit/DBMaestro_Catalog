@@ -298,7 +298,26 @@
         "ProjectId": "40e172ef-21a7-45a8-9d2d-7a088ed0474a",
         "ProjectName": "SC_Prj5",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "f16772d7-2a90-40c9-b4f8-c5a8cfccde01",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "51fa7b8f-affb-4de7-8641-a8462c22a03b",
+                "DatabaseAliasName": "SC_Prj5",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://SAG-Arbit@bitbucket.org/sag-arbit/sc_prj5.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -314,7 +333,30 @@
       "UserData": [
         {
           "UserName": "sagomes47",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "51fa7b8f-affb-4de7-8641-a8462c22a03b",
+              "DatabaseAliasName": "SC_Prj5",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "SRVDBMAESTRO\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "dbmaestro",
+                    "dbName": "SC_Prj5_Dev1",
+                    "Password": "d517xklpdsnh1ndM7kY9qg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "SAG-Arbit",
+                "Password": "EzwXTTwq6XkCJQmqibqXu3D0QHVJ9bUFcDjO0vQs7PALOijPx7KGh5A9/njekG6Y"
+              }
+            }
+          ]
         }
       ]
     }
