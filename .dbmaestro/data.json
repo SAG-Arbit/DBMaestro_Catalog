@@ -292,31 +292,6 @@
           ]
         }
       ]
-    },
-    {
-      "GlobalData": {
-        "ProjectId": "5f42855b-410a-4f6d-afa6-dc05dfbd7ba9",
-        "ProjectName": "SC_Prj5",
-        "DBTypeName": "SQL Server",
-        "Environments": null,
-        "SourceControlPathType": 0,
-        "Configuration": {
-          "BuildMigrationScriptAutomatically": true,
-          "DBConfiguration": {},
-          "NumberOfRevisionsInViewHistory": 10,
-          "NumberOfTagsInBuildOptions": 10,
-          "PreventCommitObjectWithConflict": false,
-          "UseCache": null
-        },
-        "ProjectArchitecture": 0,
-        "LocalDirectory": "C:\\Users\\sgomes\\Documents\\projectName"
-      },
-      "UserData": [
-        {
-          "UserName": "sagomes47",
-          "DatabasesData": []
-        }
-      ]
     }
   ],
   "GlobalConfigurations": null
