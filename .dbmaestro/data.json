@@ -373,7 +373,7 @@
                     "host": "SRVDBMAESTRO\\SQLEXPRESS",
                     "authType": "SqlAuthentication",
                     "userName": "dbmaestro",
-                    "dbName": "SC_Prj5_Dev2",
+                    "dbName": "SC_Prj5_Feat3",
                     "Password": "d517xklpdsnh1ndM7kY9qg=="
                   }
                 },
