@@ -357,6 +357,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "SAG-Arbit",
+          "DatabasesData": [
+            {
+              "DatabaseId": "51fa7b8f-affb-4de7-8641-a8462c22a03b",
+              "DatabaseAliasName": "SC_Prj5",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "SRVDBMAESTRO\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "dbmaestro",
+                    "dbName": "SC_Prj5_Dev2",
+                    "Password": "d517xklpdsnh1ndM7kY9qg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "SAG-Arbit",
+                "Password": "EzwXTTwq6XkCJQmqibqXu3D0QHVJ9bUFcDjO0vQs7PALOijPx7KGh5A9/njekG6Y"
+              }
+            }
+          ]
         }
       ]
     }
