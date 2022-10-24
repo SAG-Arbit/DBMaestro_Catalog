@@ -567,6 +567,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "sagomes47",
+          "DatabasesData": [
+            {
+              "DatabaseId": "bc2e672a-e666-4f88-8376-11037c4c8d30",
+              "DatabaseAliasName": "SCPrj7",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "SRVDBMAESTRO\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "dbmaestro",
+                    "dbName": "SCPrj7_Dev2",
+                    "Password": "d517xklpdsnh1ndM7kY9qg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "sagomes47",
+                "Password": "cWOldTZLPGvFKj+i+/kbqe3dNPEwmwlrM9yvV9iicz4H8aJW7LEOMCt3s1Q+saTD"
+              }
+            }
+          ]
         }
       ]
     }
