@@ -596,6 +596,73 @@
           ]
         }
       ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "10ff9ab9-d4fd-4b08-8571-1623a7ad932d",
+        "ProjectName": "SCPrj9",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "f425865d-03bb-44ce-83ef-6483a0420c04",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "8cb3823a-baf1-4e7d-b754-248747f8b395",
+                "DatabaseAliasName": "SCPrj9",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://SAG-Arbit@bitbucket.org/sag-arbit/scprj9.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {},
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\sgomes\\Documents\\projectName"
+      },
+      "UserData": [
+        {
+          "UserName": "SAG-Arbit",
+          "DatabasesData": [
+            {
+              "DatabaseId": "8cb3823a-baf1-4e7d-b754-248747f8b395",
+              "DatabaseAliasName": "SCPrj9",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "SRVDBMAESTRO\\SQLEXPRESS",
+                    "authType": "SqlAuthentication",
+                    "userName": "dbmaestro",
+                    "dbName": "SCPrj9_Dev1",
+                    "Password": "d517xklpdsnh1ndM7kY9qg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "SAG-Arbit",
+                "Password": "EzwXTTwq6XkCJQmqibqXu3D0QHVJ9bUFcDjO0vQs7PALOijPx7KGh5A9/njekG6Y"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null
